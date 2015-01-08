@@ -1,0 +1,31 @@
+.text{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 20px;
+	text-align: center;
+	height: 70px;
+	width: 900px;
+	background-color: rgba(46, 80, 59, 0.4);
+	font-family: sans-serif;
+	font-size: 20;
+}
+
+.red {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	text-indent: center;
+}
+.green {
+	background-color: green;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+}
+.blue {
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+}
