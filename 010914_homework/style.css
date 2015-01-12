@@ -1,0 +1,210 @@
+.page{
+	display: block;
+	font-family: sans-serif;
+	background color: rgb(250, 250, 250);
+	font-size: 16px;
+	height: 1209px;
+	width: 400px;
+}
+
+.fa {
+	font-size: 25px;
+	font-weight: normal;
+}	
+
+.fa-bars {
+	padding: 11px;
+	color: white;
+	font-weight: normal;
+	
+}
+
+.menu {
+	margin-left: -150px;
+	position: fixed;
+	background-color: black;
+	width: 150px;
+	height: 705px;
+	top: 0;
+	bottom: 0;
+}
+
+.menuhead {
+
+	height: 222px;
+	width: 150px;
+	position: fixed;
+	position; top;
+	background-color: transparent;
+	text-align: left;
+	line-height: 1.5em;
+	padding: 0.6em 0 0.6em 0.6em;
+	margin: -10px;
+}
+
+.comp {
+	font-size: 110%;
+	color: white;
+	text-decoration: none;
+	padding: 0.6em 0 0.6em 0.6em;
+	display: block;
+	background-color: #1f8dd6;
+
+}
+
+.home{
+	color: #999;
+	text-decoration: none;
+	padding: 0.6em 0 0.6em 0.6em;
+	display: block;
+}
+
+.about{
+	color: #999;
+	text-decoration: none;
+	padding: 0.6em 0 0.6em 0.6em;
+	display: block;
+
+}
+
+.services{
+	color: white;
+	text-decoration: none;
+	padding: 0.6em 0 0.6em 0.6em;
+	display: block;
+	background-color: #1f8dd6;
+
+}
+
+.contact{
+	color: #999;
+	text-decoration: none;
+	padding: 0.6em 0 0.6em 0.6em;
+	display: block;
+
+}
+
+
+.box {
+	width: 52px;
+	height: 44px;
+	position: fixed;
+	top: 0;
+	left:0;
+	background-color: rgba(0,0,0,0.7);
+	text-align: center;
+	
+
+}
+
+
+.header {
+	height: 150px;
+	width: 336px;
+	margin: 0;
+	color: #333;
+	text-align: center;
+	padding: 2.5em  2em 0;
+	border-bottom: 1px solid #eee;
+
+	
+}
+.title{
+	margin: 0.2em 0;
+	font-size: 3em;
+	font-weight: 300;
+	color: #333;
+
+}
+.subtitle{
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #ccc;
+	padding: 5px;
+	margin-top: 0;
+}
+.content{
+	height: 968;
+	width: 400;
+	margin: 0 auto;
+	font-weight: 300;
+	color: #888;
+	padding: 0 2em;
+	margin-bottom: 50px;
+	line-height: 1.6em;
+
+}
+.subhead1{
+	margin: 50px 0 20px 0;
+	font-size: 1.5em;
+}
+	
+.subhead2{
+	margin: 50px 0 20px 0;
+	font-size: 1.5em;
+}
+.subhead3{
+	margin: 50px 0 20px 0;
+	font-size: 1.5em;
+	
+
+}
+.p1{
+	color: #777;
+
+}
+.p2{
+	color: #777;
+
+}
+.p3{
+	color: #777;
+
+}
+
+.images{
+	font-size: 0;
+}
+
+.wrapper{
+	width: 25%;
+	display: inline-block;
+
+}
+
+.wrapper img {
+	width: 100%;
+
+}
+
+@media (min-width: 768px) {
+	
+	.page {
+	margin-left: 150px;}
+	
+	.menu {
+	margin-left: -150px;}
+	
+	.box {
+	background-color: transparent;}
+	
+	.fa {
+	background-color: transparent;}	
+	
+	.fa-bars {
+	color: transparent;}
+}
+
+
+@media (>400px<1010px) {
+ .header
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}}
+
+
+
+     
